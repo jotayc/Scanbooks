@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="VerdeFondoMain">#d8f0e2</color>
+    <color name="btnColorStart">#a8c6c4</color>
+    <color name="btnColorCenter">#9dc7c3</color>
+    <color name="btnEndColor">#668f8b</color>
+    <color name="btnPressed1">#c8eec7</color>
+    <color name="btnPressed2">#afddae</color>
+    <color name="btnPressed3">#aedeae</color>
+    
+</resources>

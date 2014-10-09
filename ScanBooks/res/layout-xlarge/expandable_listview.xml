@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/main_layout_bg"
+    android:orientation="vertical"
+    android:weightSum="3" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1.35"
+        android:background="#f8f8f8"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <ImageView
+            android:id="@+id/btncatalg"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.30"
+            android:contentDescription="@string/catalogar"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:src="@drawable/ico_categ" />
+
+        <TextView
+            android:id="@+id/TitleListView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2.35"
+            android:gravity="center"
+            android:text="@string/TituloListView"
+            android:textColor="#183d4f"
+            android:textColorHint="#fceec7"
+            android:textColorLink="#183d4f"
+            android:textSize="50sp"
+            android:textStyle="italic|bold"
+            android:typeface="sans" />
+
+        <ImageView
+            android:id="@+id/btnadd"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.3"
+            android:contentDescription="@string/Anadir"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:src="@drawable/ic_add" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.35" >
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:entries="@array/spinnerList"
+            android:prompt="@string/spinnerPromt" />
+
+    </LinearLayout>
+ 
+    <ExpandableListView
+        android:id="@+id/lvExp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.30"
+        android:cacheColorHint="#00000000"
+        android:childDivider="@drawable/dividerlines"
+        android:divider="@drawable/dividerlines"
+        android:dividerHeight="1sp"
+        android:drawSelectorOnTop="true"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="true"
+        android:listSelector="@android:color/transparent"
+        android:scrollingCache="false" />
+
+</LinearLayout>

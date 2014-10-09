@@ -1,0 +1,158 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_layout_bg"
+    android:orientation="vertical"
+    android:weightSum="3" >
+
+    <TextView
+        android:id="@+id/lblCodbar"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.3"
+        android:background="#f8f8f8"
+        android:gravity="center"
+        android:text="@string/hello"
+        android:textColor="#183d4f"
+        android:textColorHint="#fceec7"
+        android:textColorLink="#183d4f"
+        android:textSize="47sp"
+        android:textStyle="italic|bold"
+        android:typeface="sans" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.25"
+        android:gravity="center|center_vertical" >
+
+        <Button
+            android:id="@+id/btncatalog"
+            android:layout_width="370dp"
+            android:layout_height="180dp"
+            android:background="@drawable/button_effect"
+            android:text="@string/Scan"
+            android:textColor="#183d4f"
+            android:textSize="45sp"
+            android:textStyle="bold|italic"
+            android:typeface="normal" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.45"
+        android:baselineAligned="false"
+        android:weightSum="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="2dp"
+            android:layout_weight="0.7"
+            android:baselineAligned="false"
+            android:gravity="left"
+            android:orientation="vertical"
+            android:weightSum="1" >
+
+            <TextView
+                android:id="@+id/txttitulo"
+                style="@style/Detalleslibro"
+                android:background="#297F76"
+                android:gravity="center|left"
+                android:paddingLeft="10dp"
+                android:text="@string/Titulo"
+                android:textSize="45sp" />
+				
+            <TextView
+                android:id="@+id/txtautor"
+                style="@style/Detalleslibro"
+                android:background="#297F76"
+                android:gravity="center|left"
+                android:paddingLeft="10dp"
+                android:text="@string/Autor"
+                android:textSize="45sp" />
+
+            <TextView
+                android:id="@+id/txteditorial"
+                style="@style/Detalleslibro"
+                android:background="#297F76"
+                android:gravity="center|left"
+                android:paddingLeft="10dp"
+                android:text="@string/Editorial"
+                android:textSize="45sp" />
+
+            <TextView
+                android:id="@+id/txtano"
+                style="@style/Detalleslibro"
+                android:background="#297F76"
+                android:gravity="center|left"
+                android:paddingLeft="10dp"
+                android:text="@string/Ano"
+                android:textSize="45sp" />
+
+            <TextView
+                android:id="@+id/txtcategoria"
+                style="@style/Detalleslibro"
+                android:layout_width="fill_parent"
+                android:background="#297F76"
+                android:gravity="center|left"
+                android:paddingLeft="2dp"
+                android:text="@string/Categoria"
+                android:textSize="45sp" />
+
+            <TextView
+                android:id="@+id/txtisbn"
+                style="@style/Detalleslibro"
+                android:background="#297F76"
+                android:gravity="center|left"
+                android:paddingLeft="10dp"
+                android:text="@string/Isbn"
+                android:textSize="45sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:gravity="right"
+            android:orientation="vertical"
+            android:weightSum="1" >
+
+            <TextView
+                android:id="@+id/titulo"
+                style="@style/Detalleslibro"
+                />
+
+            <TextView
+                android:id="@+id/autor"
+                style="@style/Detalleslibro" />
+
+            <TextView
+                android:id="@+id/editorial"
+                style="@style/Detalleslibro"
+                />
+
+            <TextView
+                android:id="@+id/ano"
+                style="@style/Detalleslibro"
+                />
+
+            <TextView
+                android:id="@+id/Categoria"
+                style="@style/Detalleslibro"
+                />
+
+            <TextView
+                android:id="@+id/isbn"
+                style="@style/Detalleslibro"
+                android:layout_marginBottom="0dp"
+            	/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

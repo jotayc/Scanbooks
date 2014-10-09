@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Informame sobre este libro..</string>
+    <string name="webvw">Escanea y compara precios</string>
+    <string name="app_name">ScanBooks</string>
+    <string name="Scan">Escaner</string>
+    <string name="Titulo">Titulo</string>
+	<string name="Autor">Autor</string>
+	<string name="Editorial">Editorial</string>
+	<string name="Ano">Año</string>
+	<string name="Categoria">Categoria</string>
+	<string name="Isbn">ISBN</string>
+	<string name="TituloListView">Mi colección</string>
+	<string name="Anadir">Añadir</string>
+	<string name="TextMenuPag1">MI COLECCIÓN: \n Administra tu librería.\n (Pulsa en la imagen para acceder) </string>
+	<string name="TextMenuPag2">BUSQUEDA EN INTERNET: \n Escanea y compara precios.\n (Pulsa en la imagen para acceder) </string>
+	<string name="Leido">Leido</string>
+	<string name="Pendiente">Pendiente</string>
+	<string name="catalogar">Catalogar</string>
+	
+	<string name="spinnerPromt">Listar libros: </string>
+	<string-array name="spinnerList">
+	    <item >Todos</item>
+	    <item >Leidos</item>
+	    <item >Pendientes</item>
+	</string-array>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CollectionListActivity" >
+
+    <ImageView
+        android:id="@+id/menuPag1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg1_normal_ly" />
+
+    <TextView
+        android:id="@+id/TextView1"
+        style="@style/ImageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/menuPag1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:ellipsize="end"
+        android:text="@string/TextMenuPag1"
+        android:textSize="40sp" />
+
+</RelativeLayout>
